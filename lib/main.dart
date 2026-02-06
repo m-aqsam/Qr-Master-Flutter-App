@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:flutter_application_1/screens/home_screen.dart';
+
+import 'package:flutter_application_1/screens/splash_screen.dart';
 import 'package:flutter_application_1/utils/constants.dart';
 import 'package:flutter_application_1/services/theme_service.dart';
 
@@ -67,7 +68,7 @@ class MyApp extends StatelessWidget {
               ),
             ),
           ),
-          home: const HomeScreen(),
+          home: const SplashScreen(),
         );
       },
     );
