@@ -5,26 +5,7 @@ It is designed with simplicity, performance, and cross-platform compatibility in
 
 ## 📸 Screenshots
 
-### 🔹 Splash Screen
-![Splash Screen](screenshots/splash.png)
-
-### 🔹 QR Code Generator (Light Mode)
-![QR Generator Light](screenshots/generate_light.png)
-
-### 🔹 Navigation Drawer
-![Navigation Drawer](screenshots/drawer.png)
-
-### 🔹 QR Code Generator (Dark Mode)
-![QR Generator Dark](screenshots/generate_dark.png)
-
-### 🔹 QR Scanner
-![QR Scanner](screenshots/scan.png)
-
-### 🔹 Scan History
-![Scan History](screenshots/history.png)
-
-
-
+![Splash Screen](screenshots/mockup.png)
 
 ## 🛠️ Built With
 
