@@ -1,48 +1,35 @@
-# 📱 QR Master - Flutter QR Code Generator & Scanner
+# 📱 QR Master – Flutter QR Generator & Scanner
 
-**QR Master** is a modern, easy-to-use Flutter mobile application that allows users to **generate custom QR codes** and **scan existing ones** with high performance and smooth UI. Whether you want to create QR codes for text/URLs or scan them using your device camera, this app does it all! 🚀
-
----
-
-## 🔍 Features
-
-✨ **QR Code Generation**
-- Create QR codes from any text or URL.
-- Instantly preview and share the generated QR.
-
-📸 **QR Code Scanner**
-- Scan QR codes using the device camera.
-- Detect and display QR content in real time.
-
-📤 **Share & Save**
-- Save generated QR images locally.
-- Share codes with other apps and contacts.
-
-📱 **Cross-Platform Support**
-- Works seamlessly on **iOS**, **Android**, **Web**, **Windows**, **macOS**, and **Linux**.
+**QR Master** is a Flutter application that allows users to **generate QR codes** and **scan QR codes** quickly and easily using their mobile device.
 
 ---
 
-## 📦 Tech Stack
+## ✨ Features
 
-This project is built with **Flutter**, leveraging its cross-platform framework to support multiple platforms with a single codebase.
+- 🔹 Generate QR codes from text or URLs  
+- 🔹 Scan QR codes using the device camera  
+- 🔹 Simple and clean user interface  
+- 🔹 Cross-platform support (Android, iOS, Web, Desktop)
 
 ---
 
-## 🛠️ Getting Started
+## 🛠️ Built With
 
-### 🎯 Prerequisites
+- **Flutter**
+- **Dart**
 
-Before running the app locally, ensure you have:
+---
 
+## 🚀 Getting Started
+
+### Prerequisites
 - Flutter SDK installed
-- A code editor like VS Code or Android Studio
-- A connected device or emulator
+- Emulator or physical device
 
----
+### Installation
 
-### 🚀 Installation
-
-1. **Clone the repo**
 ```bash
 git clone https://github.com/m-aqsam/Qr-Master-Flutter-App.git
+cd Qr-Master-Flutter-App
+flutter pub get
+flutter run
