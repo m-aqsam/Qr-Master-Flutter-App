@@ -68,9 +68,14 @@ class _GeneratorScreenState extends State<GeneratorScreen> {
                     data: _data,
                     version: QrVersions.auto,
                     size: 200.0,
-                    // Simple default style, uses primary color if needed but standard is black usually for high contrast.
-                    // User said "simple like before", effectively removing customization.
-                    // We can use primary color for a slight touch or just black. Let's use black for max compatibility/simple.
+                    eyeStyle: QrEyeStyle(
+                      eyeShape: QrEyeShape.square,
+                      color: Theme.of(context).colorScheme.primary,
+                    ),
+                    dataModuleStyle: const QrDataModuleStyle(
+                      dataModuleShape: QrDataModuleShape.square,
+                      color: Colors.black,
+                    ),
                   ),
                 ).animate().scale(duration: 400.ms, curve: Curves.easeOutBack),
               ),
