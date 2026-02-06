@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/utils/constants.dart';
+
 
 class CustomTextField extends StatelessWidget {
   final TextEditingController controller;
@@ -19,9 +19,11 @@ class CustomTextField extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    
     return Container(
       decoration: BoxDecoration(
-        color: AppColors.surface,
+        color: theme.cardColor, // Use cardColor for surface background
         borderRadius: BorderRadius.circular(16),
         boxShadow: [
           BoxShadow(
@@ -33,12 +35,12 @@ class CustomTextField extends StatelessWidget {
       ),
       child: TextField(
         controller: controller,
-        style: const TextStyle(color: Colors.white),
+        style: theme.textTheme.bodyMedium, // Use textTheme
         maxLines: maxLines,
         decoration: InputDecoration(
           labelText: label,
-          labelStyle: TextStyle(color: AppColors.textSecondary),
-          prefixIcon: Icon(icon, color: AppColors.secondary),
+          labelStyle: TextStyle(color: theme.hintColor), // Use hintColor
+          prefixIcon: Icon(icon, color: theme.colorScheme.primary), // Use primary color
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(16),
             borderSide: BorderSide.none,
